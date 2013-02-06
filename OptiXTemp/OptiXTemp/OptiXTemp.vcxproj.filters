@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sutil\DeviceMemoryLogger.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\glew.c">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\glm.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\GLUTDisplay.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\HDRLoader.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\ImageDisplay.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\ImageLoader.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\MeshScene.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\ModelLoader.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\Mouse.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\ObjLoader.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\PlyLoader.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\PPMLoader.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\SampleScene.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\SunSky.cpp">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\sutil.c">
+      <Filter>sutil</Filter>
+    </ClCompile>
+    <ClCompile Include="sutil\rply-1.01\rply.c">
+      <Filter>sutil\rply-1.01</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTracer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helpers.h" />
+    <ClInclude Include="sutil\DeviceMemoryLogger.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\glext.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\glm.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\GLUTDisplay.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\HDRLoader.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\ImageDisplay.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\ImageLoader.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\MeshScene.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\ModelLoader.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\Mouse.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\NsightHelper.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\ObjLoader.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\PlyLoader.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\PPMLoader.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\SampleScene.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\SunSky.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\sutil.h">
+      <Filter>sutil</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\rply-1.01\rply.h">
+      <Filter>sutil\rply-1.01</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\GL\glew.h">
+      <Filter>sutil\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\GL\glxew.h">
+      <Filter>sutil\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="sutil\GL\wglew.h">
+      <Filter>sutil\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTracer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="parallelogram.cu" />
+    <CudaCompile Include="PathTracer.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sutil">
+      <UniqueIdentifier>{7673db97-e80d-47f3-948d-a39d6c2679b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sutil\rply-1.01">
+      <UniqueIdentifier>{3009e982-d29e-4b98-953b-6e832fa6e260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sutil\GL">
+      <UniqueIdentifier>{7950ac3a-9505-4127-b8d4-aff0d53b9997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sutil\thrust">
+      <UniqueIdentifier>{7c48a3b4-60c3-4e2a-a823-cb3e653bcb47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sutil\rply-1.01\LICENSE">
+      <Filter>sutil\rply-1.01</Filter>
+    </None>
+  </ItemGroup>
+</Project>
