@@ -9,5 +9,5 @@ develop from than the SDK...
 
 Contains DLL's necessary for it to run (tested on X64 Win7). Copy them into the x64/Debug folder (which is both output directory, 
 intermediate directory and working directory). The .cu files are compiled into PTX by NVCC and placed in that folder,
-where it is read by the runtime for loading of OptiX programs. If you have trouble, double check the library directories
+where it is read by the runtime for loading of OptiX programs. If you have trouble, double check the include/library directories
 in project configuration to suit your system.
